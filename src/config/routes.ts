@@ -1,16 +1,10 @@
 export const Routes = {
-  // AUTH
-  SIGN_IN: '/auth/sign-in',
-  SIGN_UP: '/auth/sign-up',
-
   // PUBLIC
-  HOME: '/',
-
-  // ADMIN
-  DASHBOARD: '/dashboard'
+  HOME: '/'
 };
 
 export const Links = {
-  GITHUB: 'https://github.com/damla/nextjs-w-app-router-starter',
+  GITHUB: 'https://github.com/damla',
+  LINKEDIN: 'https://linkedin.com/in/damlakoksal',
   X: 'https://x.com/damlakoksal'
 };

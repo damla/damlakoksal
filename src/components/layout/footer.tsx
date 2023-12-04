@@ -5,12 +5,12 @@ import { Links } from '@/config/routes';
 
 export default function Footer() {
   return (
-    <footer className="w-full flex items-center justify-center py-10 gap-1">
-      <span className="text-default-600">&copy;{new Date().getFullYear()}</span>
+    <footer className="flex items-center justify-center gap-1 py-8">
+      <span className="text-primary">&copy;{new Date().getFullYear()}</span>
       <Link href={Links.GITHUB} className="text-primary">
         Damla Köksal.
       </Link>
-      <span className="text-default-600">All rights reserved.</span>
+      <span className="text-primary">All rights reserved.</span>
     </footer>
   );
 }
