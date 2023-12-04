@@ -1,7 +1,3 @@
-'use client';
-
-import { Fragment } from 'react';
-import clsx from 'clsx';
 import { siteConfig } from '@/config/site';
 import Link from 'next/link';
 import { Links } from '@/config/routes';

@@ -6,5 +6,6 @@ export const Routes = {
 export const Links = {
   GITHUB: 'https://github.com/damla',
   LINKEDIN: 'https://linkedin.com/in/damlakoksal',
-  X: 'https://x.com/damlakoksal'
+  X: 'https://x.com/damlakoksal',
+  TRENDYOL: 'https://trendyol.com/'
 };

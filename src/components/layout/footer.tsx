@@ -5,7 +5,7 @@ import { Links } from '@/config/routes';
 
 export default function Footer() {
   return (
-    <footer className="flex items-center justify-center gap-1 py-8">
+    <footer className="flex items-center justify-center gap-1 py-6">
       <span className="text-primary">&copy;{new Date().getFullYear()}</span>
       <Link href={Links.GITHUB} className="text-primary">
         Damla Köksal.
