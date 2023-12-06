@@ -32,7 +32,7 @@ export default function RootLayout({ children }: Props) {
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={clsx('min-h-screen bg-black', inter.className)}>
-        <div className="relative flex flex-col h-screen justify-between container mx-auto max-w-7xl pt-16 px-6">
+        <div className="relative flex flex-col h-screen justify-between container mx-auto max-w-7xl pt-8 md:pt-16 px-6">
           <Navbar />
           <main>{children}</main>
           <Footer />
