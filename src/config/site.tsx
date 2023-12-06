@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
       description:
         'I am Damla Köksal, a passionate software engineer based in Istanbul, Turkey 🇹🇷',
       company: {
-        preDescription: 'Currently, I am enhancing the digital experience at',
+        preDescription: 'Currently, I am focusing on software engineering advancements at',
         companyInfo: {
           name: 'Trendyol Group 💻',
           link: 'https://www.trendyol.com/'
